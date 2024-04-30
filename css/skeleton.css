@@ -58,6 +58,13 @@
   color: #000000;
   text-decoration: none;
   }
+  .sub_sub_header{
+    font-family: 'Oxygen Light', sans-serif;
+    font-size:14pt;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
+    }
 
   .paper_title_wlink{
     font-size:12pt;
