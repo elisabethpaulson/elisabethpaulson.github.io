@@ -350,6 +350,21 @@ li.sub {
 li.award {
     margin-bottom:0;
 }
+/* Diamond bullet list */
+ul.diamond-bullets {
+  list-style-type: none; /* Remove default bullets */
+}
+
+ul.diamond-bullets li::before {
+  content: "\25C7"; /* Unicode for outlined diamond */
+  margin-right: 10px; /* Adjust spacing */
+  color: black; /* Adjust color */
+}
+
+/* Ensure consistent margin and padding for diamond bullet list */
+ul.diamond-bullets li {
+  margin-bottom:0;
+}
 
 /* Paper
 Ã¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œÃ¢â‚¬â€œ */
