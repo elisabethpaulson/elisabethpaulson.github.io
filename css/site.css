@@ -175,6 +175,10 @@ a:focus {
   padding-left: 0;
 }
 
+.paper-list {
+  padding-left: calc(0.9rem + 3px);
+}
+
 .paper,
 .case-list li,
 .media-list li {
@@ -221,7 +225,6 @@ a:focus {
 
 .paper-notes {
   background: var(--accent-soft);
-  border-left: 2px solid var(--accent-rule);
   color: var(--accent);
   list-style: square outside;
   margin: 0.65rem 0 0;
@@ -252,7 +255,6 @@ a:focus {
 
 .case-abstract {
   background: var(--accent-soft);
-  border-left: 3px solid var(--accent-rule);
   color: var(--accent);
   font-size: 1.42rem;
   font-style: italic;
